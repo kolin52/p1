@@ -1,5 +1,7 @@
 x = 5
 y = 10
-x = 10 
-y = 5
+print(x, y)
+x = z
+x = y
+y = z
 print(x, y)
