@@ -1,5 +1,5 @@
-dal_uspor = 5
-vis_uspor = 8
+dal_uspor = int(input())
+vis_uspor = int(input())
 # izchislyavame liceto na usporednika 
 lice_uspor = int(dal_uspor * vis_uspor)
 # izchislyavame perimetara na usporednika 
