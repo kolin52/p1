@@ -18,6 +18,6 @@ for numb in range(6):
         ticket.append(numb)
         
 ticket.sort()
-tickettostr = ' '.join([str(nu) for nu in ticket])
+tickettostr = ' '.join([str(numb) for numb in ticket])
 print(tickettostr)
     
