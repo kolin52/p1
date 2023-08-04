@@ -10,7 +10,6 @@ ticket = []
 
 for numb in range(6):
     numb = random.randint(1,49)
-    
     if numb not in ticket:
         ticket.append(numb)
     elif numb in ticket:
